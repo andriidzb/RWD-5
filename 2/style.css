@@ -1,0 +1,12 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.icon-logo {
+	background-image: url(logo.png);
+	display: flex;
+	height: 256px;
+	width: 256px;   
+	text-indent: -9999px;
+}
