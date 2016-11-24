@@ -1,0 +1,33 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	margin: 25px;
+}
+
+
+.word {
+	text-transform: uppercase;
+	color: #545454;
+	font-size: 24px;
+	font-weight: 700;
+	text-shadow: 0 0 1px #606060;
+}
+
+.word:before {
+	content: " \2605 ";
+}
+
+.word:after {
+	content: " \2605 ";
+}
+
+button {
+	padding: 5px 15px 12px 15px;
+	background: linear-gradient(#dfdfdf, #b0b0b0);
+	border-radius: 10px;
+	color: #555555;
+	box-shadow: 0 0 1px 2px #b3b3b3, 0 0 0 6px #cacaca, 0 0 0 8px #ffffff, 0 0 0 10px #7e7e7e;
+}
