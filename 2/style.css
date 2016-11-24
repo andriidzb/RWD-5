@@ -4,9 +4,16 @@
 }
 
 .icon-logo {
-	background-image: url(logo.png);
-	display: flex;
-	height: 256px;
-	width: 256px;   
+	display: block; 
 	text-indent: -9999px;
+}
+
+.icon-logo:after {
+	background-image: url(logo.png);
+	height: 256px;
+	width: 256px;	
+	content: "";
+	position: absolute;
+	top: 0px;
+	left: 0px;
 }
